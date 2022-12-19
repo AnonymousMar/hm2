@@ -1,0 +1,182 @@
+:root{
+    --title-color : #2E2F42;
+    --typle-color:#5c6afd;
+    --while-color:#FFFFFF;
+    --typle2-color:#434455;
+    --while2-color:#E7E9FC;
+    --while3-color:#F4F4FD;
+    --blue-color:#4D5AE5;
+}
+/*-------------HEADER-------------- */
+body{
+    color:var(--title-color) ;
+    font-family: 'Roboto',sans-serif;}
+.web{
+    color: var(--typle-color);
+    text-transform: uppercase; 
+    font-family: Raleway;
+}
+.studio{
+    color:var(--title-color);
+    text-transform: uppercase; 
+    font-family: Raleway;
+}
+/*---------------BUTTON------------ */
+.header-list :hover,
+.header-list:focus{
+color:var(--blue-color);
+}
+
+.button-list:hover,
+.button-list:focus{  
+    background-color:var(--blue-color);
+    color: var(--while-color);}
+.btn-list:focus,
+.btn-list:hover{
+    background-color: var(--blue-color);
+    color:var(--while-color) ;
+}
+/* --------HEADER-------- */
+.link{
+    font-size: 16px;
+    line-height:calc(24/16);
+    color:var(--typle2-color) ;
+    font-weight:600;
+}
+.Contacts{
+    font-size: 16px;
+    line-height:calc(24/16);
+    color:var(--typle2-color);
+    text-decoration: none;
+}
+/*--------------STUDIO---------- */
+.solutions{
+    background:var(--title-color);
+}
+.solutions-title{
+    font-size: 56px;
+    line-height:calc(60/56);
+    color:var(--while-color);
+}
+/*-------------BUTTON------------- */
+.btn{
+        font-family:inherit;
+        font-size: 16px;
+        line-height: calc(19/16);
+        cursor: pointer;
+}
+.btn{
+    background-color: var(--typle-color); 
+    color:var(--while-color);
+}
+.button{
+    font-family: inherit;
+    font-size: 16px;
+    line-height: calc(24/16);
+    cursor: pointer;
+    background: var(--while2-color);
+    color:var(--typle-color);
+    border: 1px solid var(--while2-color);
+    border-radius: 4px;
+    font-weight: 600;
+}
+    /*------------PORTFOLIO------------- */
+    .visual{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space:nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+    /* ---------BUTTON--------- */
+    .Button{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space:nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden; 
+    }
+    /* --------------STUDIO---------- */
+    .title-team{
+        font-size: 36px;
+        line-height: 40px;
+        color:var(--title-color);
+    }
+    title-list{
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 20px;
+        line-height:calc(24/20);
+        color:var(--title-color);
+    }
+    .text{
+        font-size: 16px;
+        line-height:calc(24/16);
+        color:var(--typle2-color);
+        font-family:'Roboto';
+        font-weight: 400;
+    }
+    /*-----------LIST-------- */
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/* FOTO */
+.kann-title{
+    font-size: 36px;
+    line-height:calc(40/36) ;
+    color: var(--title-color);
+    text-transform: capitalize;
+}
+/*---------CONTACTS-----------*/
+.team-title{
+    background:var(--while3-color);
+}
+.title-team{
+font-size: 36px;
+line-height:cal(40/36);
+color:var(--title-color);
+}
+.team{
+    background-color:var(--while-color);
+}
+
+.name{
+    font-size: 20px;
+    line-height:calc(24/20);
+    color:var(--title-color);
+}
+.work{
+    font-size: 16px;
+    line-height: calc(16/24);
+    color:var(--title-color) ; 
+}
+/*----------FOOTER---------- */
+.footer{
+    background-color:var(--title-color);
+}
+.studio-footer{
+    color: var(--while-color);
+    font-size: 18px;
+    line-height: calc(24/18);
+    font-weight: 800;
+    text-transform: uppercase; 
+    font-family: Raleway;
+}
+.end-text{
+    font-size: 16px;
+    line-height:calc(24/16);
+    color:var(--while2-color) ;
+}
