@@ -11,8 +11,9 @@
 <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="page-header">
-        <nav>
+   <div class="border">
+    <header class="page-header container  page-header-container">
+        <nav class="page-nav">
             <a href="" class=" studio link "><span class="web">Web</span>studio</a>
             <ul class=" header-list list ">
                 <li class="header-list">
@@ -23,78 +24,100 @@
                     <a class=" link" href="#contacts">Contacts</a></li>
             </ul>
         </nav>
-            <ul class="header-list list">
+            <ul class="header-list list ">
                 <li class=" header-link">
                     <a class=" Contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li class=" header-link">
                     <a class=" Contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
     </header>
+</div>
     <main>
     <section>
-        <h1 class="Button visual" id="portfolio">Button</h1>
-        <ul class="list">
-            <li><button type="button" class=" button button-list ">All</button></li>
-            <li><button type="button" class=" button button-list ">Web Site</button></li>
-           <li><button type="button" class=" button button-list ">App</button></li> 
-           <li><button type="button" class=" button button-list ">Design</button></li> 
-            <li><button type="button" class=" button button-list ">Marketing</button></li>
-        </ul>
-             <ul class=" team-foto list" >
-            <li class=" team-title-foto">
+        <h1 class="Button visual " id="portfolio">Button</h1>
+        <div> <ul class="list-button">
+        <li><button type="button" class=" button button-list ">All</button></li>
+        <li><button type="button" class=" button button-list ">Web Site</button></li>
+       <li><button type="button" class=" button button-list ">App</button></li> 
+       <li><button type="button" class=" button button-list ">Design</button></li> 
+        <li><button type="button" class=" button button-list ">Marketing</button></li>
+    </ul>
+</div>
+             <ul class=" team-foto-list list" >
+            <li class=" title-foto">
                 <img src="./portfolio-images/foto.jpg" alt="Banking " width="360" height="300">
+               <div class="empployees-card-contant" >
                 <h2  class=" name">Banking App Interface Concept</h2>
                 <p class=" work">App</p>
+               </div>
             </li>
-            <li class=" team-title-foto">
+            <li class="title-foto">
                 <img src="./portfolio-images/phone.jpg" alt="phone" width="360" height="300">
-                <h2 class="name">Cashless Payment</h2>
-                <p class="work" >Marketing</p>
+                <div class="empployees-card-contant">
+                    <h2 class="name">Cashless Payment</h2>
+                    <p class="work" >Marketing</p>
+                </div>
             </li>
-            <li class=" team-title-foto">
+            <li class=" title-foto">
                 <img src="./portfolio-images/Laptop.jpg" alt="Meditaion App" width="360" height="300">
-                <h2 class="name">Meditaion App</h2>
-                <p class="work">App</p>
+                <div  class="empployees-card-contant">
+                    <h2 class="name">Meditaion App</h2>
+                    <p class="work">App</p>
+                </div>
             </li>
-            <li class="team-title-foto">
-                <img src="./portfolio-images/taxi.jpg" alt="Taxi" width="360" height="300">
-                <h3 class="name">Taxi Service</h3>
-                <p class="work">Marketing</p>
+            <li class="title-foto">
+                <img src="./portfolio-images/taxi.jpg" alt="Taxi" width="360" height="300">  
+                <div class="empployees-card-contant" >
+                    <h3 class="name">Taxi Service</h3>
+                    <p class="work">Marketing</p>
+                </div>
             </li>
-            <li class="team-title-foto" >
+            <li class="title-foto" >
                 <img src="./portfolio-images/screen.jpg" alt="Screen" width="360" height="300">
+               <div class="empployees-card-contant">
                 <h3 class="name">Screen Illustrations</h3>
                 <p class="work" >Design</p>
+               </div>
             </li>
-            <li class="team-title-foto">
+            <li class="title-foto">
                 <img src="./portfolio-images/online.jpg" alt="Online Courses" width="360" height="300">
+               <div class="empployees-card-contant" >
                 <h3 class="name">Online Courses</h3>
                 <p class="work">Marketing</p>
+               </div>
             </li>
-            <li class="team-title-foto">
+            <li class="title-foto">
                 <img src="./portfolio-images/instagram.jpg" alt="Instagram Stories" width="360" height="300">
-               <h3 class="name">Instagram Stories Concept</h3>
+             <div class="empployees-card-contant">  
+                <h3 class="name">Instagram Stories Concept</h3>
                <p class="work">Design</p>
-            </li>
-            <li class="team-title-foto">
+            </div>
+        </li>
+            <li class="title-foto">
                 <img src="./portfolio-images/organic.jpg" alt="Organic Food" width="360" height="300">
-                <h3 class="name" >Organic Food</h3>
-                <p class="work">Web Site</p>
+                <div class="empployees-card-contant" >
+                    <h3 class="name" >Organic Food</h3>
+                    <p class="work">Web Site</p>
+                </div>
             </li>
-            <li class="team-title-foto">
-                <img src="./portfolio-images/coffee.jpg" alt="Fresh Coffee" width="360" height="300">    
-                <h3 class="name" >Fresh Coffee</h3>
-                <p class="work">Web Site</p>
-            </li>
+            <li class="title-foto">
+                <img src="./portfolio-images/coffee.jpg" alt="Fresh Coffee" width="360" height="300"> 
+                <div class="empployees-card-contant card" >
+                    <h3 class="name" >Fresh Coffee</h3>
+                    <p class="work">Web Site</p>
+                </div>
+            </li>   
         </ul>
     </section>
  </main>  
  <footer class="footer" id="contacts">
-    <ul class="footer-end list">
-        <li class="studio-footer">
-            <a class=" studio-footer link" href=""><span class="web">Web</span>studio</a></li>
-    </ul>
-    <p class="end-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-</footer>
+    <div class="container">
+        <ul class="footer-end list">
+            <li class="studio-footer">
+                <a class=" studio-footer link" href=""><span class="web">Web</span>studio</a></li>
+        </ul>
+        <p class="end-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    </div>
+    </footer>  
 </body>
 </html>
